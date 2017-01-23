@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.developer.myownapp.slotting.Locations">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Vindya"
+        android:id="@+id/vSlot"
+        android:layout_marginTop="83dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="#3aec1f"
+        android:textStyle="bold"
+        android:theme="@style/AppTheme.PopupOverlay" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="Please choose the parking slots"
+        android:id="@+id/textView4"
+        android:layout_alignParentTop="true"
+        android:textSize="25dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textIsSelectable="false"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textColor="#f60ade"
+        android:textColorHighlight="#de1212" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="T-Hub"
+        android:id="@+id/tslot"
+        android:textStyle="bold"
+        android:background="#eaea0f"
+        android:theme="@style/AppTheme.PopupOverlay"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="MAIN GATE"
+        android:id="@+id/mslot"
+        android:textStyle="bold"
+        android:theme="@style/AppTheme.PopupOverlay"
+        android:background="#1cf3c1"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="73dp" />
+</RelativeLayout>

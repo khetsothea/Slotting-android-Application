@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1066738714698",
+    "firebase_url": "https://slotting-cb875.firebaseio.com",
+    "project_id": "slotting-cb875",
+    "storage_bucket": "slotting-cb875.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1066738714698:android:be45cd1778ec641d",
+        "android_client_info": {
+          "package_name": "com.developer.myownapp.slotting"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1066738714698-qnvo185r8hf2uf8npg43ue91agkulavt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCH8u4oWu-piiEKZd0Jgvd4mcDM9eQbrFU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

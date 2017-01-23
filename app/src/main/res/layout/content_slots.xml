@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:largeHeap="true"
+    android:allowBackup="true"
+    android:background="@drawable/slotpage"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.developer.myownapp.slotting.Slots"
+    tools:showIn="@layout/activity_slots">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Book Your Slots"
+        android:id="@+id/textView2"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center"
+        android:textSize="40dp"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="80dp"
+        android:text="Morning Slot"
+        android:id="@+id/mrnslot"
+        android:textSize="20dp"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="70dp"
+        android:background="#f9a108" />
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="80dp"
+        android:text="Noon Slot"
+        android:id="@+id/noonslot"
+        android:layout_marginTop="50dp"
+        android:layout_below="@+id/mrnslot"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textSize="20dp"
+        android:background="#0d43f4" />
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="80dp"
+        android:text="Night slot"
+        android:id="@+id/nytslot"
+        android:layout_marginTop="46dp"
+        android:textSize="20dp"
+        android:layout_below="@+id/noonslot"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="#f10afd"
+        android:textColorHint="#2ffade08"
+        android:textColor="#f9e509" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/slotemail"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:hint="Email " />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:text="My Bookings"
+        android:id="@+id/showb"
+        android:layout_alignTop="@+id/nytslot"
+        android:layout_toRightOf="@+id/nytslot"
+        android:layout_toEndOf="@+id/nytslot"
+        android:layout_alignParentBottom="true"
+        android:background="#38f60d" />
+
+</RelativeLayout>
